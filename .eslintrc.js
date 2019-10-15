@@ -40,7 +40,7 @@ module.exports = {
     'object-curly-newline': 0,
     'padded-blocks': 0,
     'prefer-object-spread': 0,
-    quotes: ['warn', 'single'],
+    quotes: ['warn', 'single', { avoidEscape: true }],
     'react/destructuring-assignment': 0,
     'react/jsx-boolean-value': 0,
     'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx'] }],
